@@ -6,7 +6,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="/styles.css">
 </head>
-<body>
+<body class="grid-flow">
     <main class="grid-flow">
         <section class="section grid-flow">
             <img src="/images/logo.svg" alt="hey" class="logo-image">
@@ -15,7 +15,7 @@
                 <h1 class="para-heading">Clipboard allows you to track and organize everything you 
                 copy. Instantly access your clipboard on all your devices.</h1>
             </div>
-            <article>
+            <article class="flex-group">
                 <button>Download or iOS</button>
                 <button class="mac">Download for Mac</button>
             </article>
@@ -29,22 +29,26 @@
                     devices. Our Mac and iOS apps will help you organize everything.
                 </h1>
             </div>
-            <div>
-                <img src="/images/image-computer.png" alt="">
-            </div>
-            <div class="text-div">
-                <h2 class="heading">Quick Search</h2>
-                <p class="para-heading">Easily search your snippets by content, category, web address, application, and more.</p>
-            </div>
-            
-            <div class="text-div">
-                <h2 class="heading">iCloud Sync</h2>
-                <p class="para-heading">Instantly saves and syncs snippets across all your devices.</p>
-            </div>
+            <div class="flex-group">
+                <div>
+                    <img src="/images/image-computer.png" alt="">
+                </div>
+                <div class="grid-flow services">
+                    <div class="text-div">
+                        <h2 class="heading">Quick Search</h2>
+                        <p class="para-heading">Easily search your snippets by content, category, web address, application, and more.</p>
+                    </div>
+                    
+                    <div class="text-div">
+                        <h2 class="heading">iCloud Sync</h2>
+                        <p class="para-heading">Instantly saves and syncs snippets across all your devices.</p>
+                    </div>
 
-            <div class="text-div">
-                <h2 class="heading">Complete History</h2>
-                <p class="para-heading">Retrieve any snippets from the first moment you started using the app.</p>
+                    <div class="text-div">
+                        <h2 class="heading">Complete History</h2>
+                        <p class="para-heading">Retrieve any snippets from the first moment you started using the app.</p>
+                    </div>
+                </div>
             </div>
         </section>
 
@@ -65,7 +69,7 @@
                 <h2 class="para-heading">We've got the tools to boost your productivity.</h2>
             </div>
 
-            <div class="feature-div-main grid-flow">
+            <div class="feature-div-main flex-group">
                 <div class="feature-div grid-flow">
                     <img src="/images/icon-blacklist.svg" alt="" class="feature-img">
                     <h1 class="heading">Create Blacklists</h1>
@@ -86,7 +90,7 @@
             </div>
         </section>
 
-        <section class="section grid-flow">
+        <section class="section flex-group">
             <img src="/images/logo-google.png" alt="">
             <img src="/images/logo-ibm.png" alt="">
             <img src="/images/logo-microsoft.png" alt="">
@@ -100,7 +104,7 @@
                 and you're ready to start adding to your clipboard.
             </p>
 
-            <article>
+            <article class="flex-group">
                 <button>Download or iOS</button>
                 <button class="mac">Download for Mac</button>
             </article>
